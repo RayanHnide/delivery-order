@@ -1,0 +1,106 @@
+
+.main-dashboard {
+    background-image: url("../assets/main-dashboard.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.main-dashboard .main-contents {
+    backdrop-filter: blur(20px);
+    height: 100vh;
+    overflow: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /*background: linear-gradient(to right ,rgb(248, 234, 32), #211B57);*/
+    background: linear-gradient(to right , rgba(248, 234, 32, 0.71), rgba(33, 27, 87, 0.71));
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.login {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.form button {
+    margin-top: 25px;
+    margin-bottom: 6px;
+    border: solid 1px white;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+}
+
+.form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.form button:hover {
+    box-shadow: 2px 2px 12px white;
+}
+
+.input {
+    height: 30px;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 2px 2px 12px inset rgba(33, 27, 87, 0.71);
+    background: linear-gradient(to right , rgba(248, 234, 32, 0.71), transparent);
+    transition: all ease-in-out 400ms;
+    color: white;
+}
+
+.input:hover,.input:focus {
+    box-shadow: 2px 2px 12px inset rgb(248, 234, 32);
+    /*box-shadow: 2px 2px 22px inset black;*/
+    background: rgba(33, 27, 87, 0.80);
+}
+
+.input::placeholder {
+    color: rgba(33, 27, 87, 0.80);
+}
+
+.input:hover::placeholder, .input:focus::placeholder {
+    color: white;
+}
+
+.span:hover {
+    font-weight: bold;
+}
+
+.color {
+    color: white;
+}
+
+.align {
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.sss{
+     background: -webkit-linear-gradient( left, #ffea00, #ffea00, #00adef, #00adef, #00adef,#00adef);
+}
+

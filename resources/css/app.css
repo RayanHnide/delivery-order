@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.data-\[loaded\=true\]\:opacity-100[data-loaded=true] {
+    opacity: 1!important;
+}
+
+.message-input ::placeholder {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.60) !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    backdrop-filter: blur(140px);
+    -webkit-backdrop-filter: blur(140px);
+    transition: 0.4s all;
+    background-color: rgba(0, 0, 0, 0.46);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-clip: content-box;
+    background-color: #93C7FA;
+    backdrop-filter: blur(140px);
+    -webkit-backdrop-filter: blur(140px);
+}
